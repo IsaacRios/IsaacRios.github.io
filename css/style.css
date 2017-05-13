@@ -1,0 +1,53 @@
+.ipr-drawer{
+	border-right: none;
+}
+.ipr-drawer .mdl-layout-title{
+	height: 80px;
+}
+.ipr-drawer .ipr-logo{
+	bottom: 16px;
+	position: absolute;
+}
+.ipr-logo{
+	height: 50px;
+	width: 50px;
+}
+.ipr-slide{
+	background: url('../images/header3.png') center no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	opacity: .9;
+}
+.ipr-slogan{
+	color: #0B4F6C;
+	font-size: 80px;
+}
+.ipr-slogan-sub{
+	font-size: 30px;
+	padding-top: 48px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 15px;
+	background-color: white;
+	opacity: .5;
+}
+.ipr-slogan-ppal{
+	font-weight: 700;
+	line-height: 1;
+}
+.ipr-title{
+	font-family: 'Josefin Slab', serif;
+}
+.nav-link-sub .mdl-navigation__link:hover {
+	border-bottom: solid 4px #add8e6;
+}
+.ipr-photo{
+	border-radius: 90px;
+	width: 90px;
+	margin: 50px;
+	opacity: .5;
+}
+.ipr-photo:hover{
+opacity: .9;
+}
