@@ -1,3 +1,7 @@
+/*
+body{
+	background-color: #0B4F6C;
+}*/
 .ipr-drawer{
 	border-right: none;
 }
@@ -7,6 +11,37 @@
 .ipr-drawer .ipr-logo{
 	bottom: 16px;
 	position: absolute;
+}
+/* footer */
+.ipr-informacion{
+		position: relative;;
+		background: url('../images/headee1.jpg') center top no-repeat;
+		height: 350px;
+}
+.ipr-informacion-bg{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #0B4F6C;
+}
+.ipr-informacion-text{
+	color: white;
+	margin-left: 25%;
+	max-width: 800px;
+	padding: 24px;
+	text-align: left;
+}
+.ipr-informacion-text>p{
+	padding: 10px;
+}
+.ipr-botton-youtube{
+	background-color: #b71c1c;
+	color: white;
+}
+/* footer fin */
+
+.ipr-link{
+	color: blue !important;
 }
 .ipr-logo{
 	height: 50px;
@@ -45,6 +80,10 @@
 .ipr-subtitle{
 	font-size: 2em;
 }
+.nav-link-sub{
+	font-weight: 700;
+	font-size: 16px;
+}
 .nav-link-sub .mdl-navigation__link:hover {
 	border-bottom: solid 4px #add8e6;
 }
@@ -55,5 +94,26 @@
 	opacity: .5;
 }
 .ipr-photo:hover{
-opacity: .9;
+	opacity: .9;
+}
+
+/*---  CSS de Card ---*/
+.ipr-section-card{
+	position: relative;
+	padding: 8px 0;
+	padding-bottom: 5%;
+	max-width: 1044px;
+	margin: 0 auto;
+}
+.ipr-section-card .ipr-section-title{
+	padding: 36px 0;
+	text-align: center;
+}
+#grid-card .mdl-card__media{
+	overflow: hidden;
+	/*background: transparent;*/
+	background: transparent;
+}
+#grid-card .mdl-card__media img{
+	width: 100%;
 }
