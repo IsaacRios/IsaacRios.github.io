@@ -21,14 +21,14 @@
 }
 .ipr-slogan{
 	color: #0B4F6C;
-	font-size: 80px;
+	margin-bottom: 1em;
 }
 .ipr-slogan-sub{
-	font-size: 30px;
-	padding-top: 48px;
+	font-size: 1em;
+	padding-top: 5px;
 	padding-left: 35px;
 	padding-right: 35px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	background-color: white;
 	opacity: .5;
 }
@@ -36,8 +36,14 @@
 	font-weight: 700;
 	line-height: 1;
 }
-.ipr-title{
+.ipr-title, .ipr-subtitle{
 	font-family: 'Josefin Slab', serif;
+}
+.ipr-title{
+	font-size: 4em;
+}
+.ipr-subtitle{
+	font-size: 2em;
 }
 .nav-link-sub .mdl-navigation__link:hover {
 	border-bottom: solid 4px #add8e6;
@@ -45,7 +51,7 @@
 .ipr-photo{
 	border-radius: 90px;
 	width: 90px;
-	margin: 50px;
+	margin: 25px;
 	opacity: .5;
 }
 .ipr-photo:hover{
