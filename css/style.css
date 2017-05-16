@@ -44,13 +44,13 @@ body{
 	color: blue !important;
 }
 .ipr-logo{
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 }
 .ipr-slide{
 	background: url('../images/headee1.jpg') center no-repeat;
 	background-size: cover;
-	height: 700px;
+	height: 650px;
 	width: 100%;
 	opacity: .9;
 }
