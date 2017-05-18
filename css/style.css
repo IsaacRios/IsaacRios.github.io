@@ -12,6 +12,14 @@ body{
 	bottom: 16px;
 	position: absolute;
 }
+.ipr-icon{
+	margin: 5px;
+	color: white;
+}
+.ipr-icon:hover {
+	color: blue;
+
+}
 /* footer */
 .ipr-informacion{
 		position: relative;;
