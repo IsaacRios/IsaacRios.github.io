@@ -85,8 +85,8 @@ text-align: center;
 	font-size: 2em;
 }
 .nav-link-sub{
-	font-weight: 700;
-	font-size: 16px;
+	font-weight: 300;
+	font-size: 1em;
 }
 .nav-link-sub .mdl-navigation__link:hover {
 	border-bottom: solid 4px #add8e6;
