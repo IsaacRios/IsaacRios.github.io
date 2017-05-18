@@ -29,7 +29,7 @@ body{
 	margin-left: 25%;
 	max-width: 800px;
 	padding: 24px;
-	text-align: left;
+	text-align: center;
 }
 .ipr-informacion-text>p{
 	padding: 10px;
@@ -39,6 +39,10 @@ body{
 	color: white;
 }
 /* footer fin */
+.ipr-button-float{
+margin: 40px;
+text-align: center;
+}
 
 .ipr-link{
 	color: blue !important;
