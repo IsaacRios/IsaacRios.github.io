@@ -16,40 +16,39 @@ body{
 	margin: 5px;
 	color: white;
 }
+.ipr-icon2{
+	margin: 5px;
+	color: white;
+	background-color: grey;
+}
 .ipr-icon:hover {
-	color: blue;
+	color: black;
 
 }
 /* footer */
 .ipr-informacion{
 		position: relative;;
 		background: url('../images/headee1.jpg') center top no-repeat;
-		height: 150px;
+		max-height: 400px;
+		min-height: 150px;
+		text-align: center;
 }
-.ipr-informacion-bg{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	background-color: #0B4F6C;
-}
+
 .ipr-informacion-text{
 	color: white;
 	margin-left: 25%;
 	max-width: 800px;
-	padding: 24px;
+	padding: 15px;
 	text-align: center;
 }
-.ipr-informacion-text>p{
-	padding: 10px;
-}
-.ipr-botton-youtube{
-	background-color: #b71c1c;
-	color: white;
-}
-/* footer fin */
+
 .ipr-button-float{
 margin: 40px;
 text-align: center;
+}
+.ipr-foot{
+	color: grey;
+	font-size: 0.8em;
 }
 
 .ipr-link{

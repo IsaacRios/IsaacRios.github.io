@@ -37,7 +37,11 @@
 					<span class="mdl-color--primary mdl-layout-title">
 						<a href="index.html"><img class="ipr-logo" src="images/logo1.png" alt="logo" title="about"></a>
 					</span>
-					<nav class="mdl-navigation">						
+					<nav class="mdl-navigation">
+						<a href="" class="mdl-navigation__link">							
+							<i class="material-icons">payment</i>
+							Payments
+						</a>					
 						<a href="" class="mdl-navigation__link">
 							<i class="material-icons">shopping_cart</i>
 							eCommerce							
@@ -45,11 +49,7 @@
 						<a href="http://freaksystem666.blogspot.mx/" class="mdl-navigation__link" title="Freak System!" target="_blank">
 							<i class="material-icons">local_cafe</i>
 							Blog							
-						</a>
-						<a href="" class="mdl-navigation__link">							
-							<i class="material-icons">payment</i>
-							Payments
-						</a>
+						</a>						
 						<a href="" class="mdl-navigation__link">
 							<i class="material-icons">work</i>
 							Curriculum						
@@ -65,8 +65,12 @@
 		<div class="mdl-layout__content">
 			<div class="ipr-slide mdl-typography--text-center">
 				<img src="images/photo.jpg" class="ipr-photo">
+				<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
+				</button>
 				<div class="ipr-slogan ipr-slogan-ppal">
 					<h1 class="ipr-title">Isaac Pérez Ríos</h1>
+				
 				</div>
 				<br>
 				<div class="ipr-slogan-sub ipr-slogan-ppal">
@@ -75,7 +79,7 @@
 					I use any web tool (like a javascript, SASS, Angular or React) 
 					to design agile solutions and also build applications friendly to the final user.
 				</div>
-				<a href="#section-cards" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored ipr-button-float"><i class="material-icons">expand_more</i></a>
+				<a href="#section-cards" class="mdl-button ipr-button-float"><i class="material-icons">expand_more</i></a>
 			</div>
 
 
@@ -83,12 +87,12 @@
 		<section id="section-cards" class="ipr-section-card">
 			<a name="Isaac"></a>
 			<div class="ipr-section-title mdl-typography--display-1-color-contrast">
-				<h2>Full Stack Developer</h2>
+				<h2>Full Stack Developer</h2>				
 				<small>Areas of Expertise:</small>
 			</div>
 
 			<div id="grid-card" class="mdl-grid">
-				<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+				<div class="mdl-cell mdl-cell--8-col mdl-cell--6-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
 					<div class="mdl-card__media">
 						<img src="images/foot7.jpg" alt="nothing">						
 					</div>
@@ -100,12 +104,18 @@
 						The most important thing is the experience and usability for the user, regardless of the platform, operating system or hardware.</span>
 					</div>
 					<div class="mdl-card__actions">
-						<a href="" class="ipr-link mdl-button mdl-js-button mdl-typography--text-uppercase">More info
+						<span href="" class="ipr-link mdl-typography--text-uppercase">More info
 						<i class="material-icons">chevron_right</i>
-						</a>
+						</span>
+						<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
+							<i class="fa fa-github" aria-hidden="true"></i>
+						</button>
+						<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
+							<i class="fa fa-codepen" aria-hidden="true"></i>
+						</button>
 					</div>
 				</div>
-				<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
 					<div class="mdl-card__media">
 						<img src="images/foot03.jpg" alt="nothing">						
 					</div>
@@ -123,8 +133,10 @@
 						<i class="material-icons">chevron_right</i>
 						</a>
 					</div>
-				</div>
-				<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+				</div>				
+			</div>
+			<div id="grid-card" class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp">
 					<div class="mdl-card__media">
 						<img src="images/foot0.jpg" alt="nothing">						
 					</div>
@@ -143,7 +155,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp">
 					<div class="mdl-card__media">
 						<img src="images/foot6.jpg" alt="nothing">						
 					</div>
@@ -162,14 +174,30 @@
 						</a>
 					</div>
 				</div>
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp">
+					<div class="mdl-card__media">
+						<img src="images/foot1.jpg" alt="nothing">						
+					</div>
+					<div class="mdl-card__title">
+						<h4 class="mdl-card__title-text">Factura Electrónica (México)</h4>
+					</div>
+					<div class="mdl-card__supporting-text">
+						<span class="mdl-typography--font-light">
+						Proveedor autorizado de certificación (PAC). WebServices, SOAP, XML.
+					 </span>
+					</div>
+					<div class="mdl-card__actions">
+						<a href="https://www.appfacturainteligente.com/CFDI/Presentacion/Usuario/RegistroUsuario.aspx?clave=FI-D000207" class="ipr-link mdl-button mdl-js-button mdl-typography--text-uppercase" target="_blank" title="5 Facturas GRATIS">
+						Información
+						<i class="material-icons">chevron_right</i>
+						</a>
+					</div>
+				</div>
 			</div>
+		
 		</section>
 		<!--Section Información-->
 			<div class="ipr-informacion" id="ipr-Contact">
-				<div class="ipr-informacion-bg">
-				<i class="fa fa-whatsapp" aria-hidden="true"> 2221 26 36 43</i>
-				<i class="fa fa-skype" aria-hidden="true"> isaacwebmonster</i>
-				<i class="fa fa-slack" aria-hidden="true"> rios.isaac@webmnster.mx</i>
 
 					<div class="ipr-informacion-text">
 						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
@@ -192,11 +220,23 @@
 						</button> 
 						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
 							<i class="fa fa-youtube-play" aria-hidden="true"></i>
-						</button> 	
-					</div>
-				</div>
+						</button>
+						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+						</button>	
+						<div>
+							<span class="ipr-icon">
+								<i class="fa fa-whatsapp" aria-hidden="true"><small> +52(044) 222 1 26 36 43</small></i>
+							 </span>
+							<span class="ipr-icon">
+								<i class="fa fa-skype" aria-hidden="true"><small> isaacwebmonster</small></i>
+							</span> 
+							<span class="ipr-icon">
+								<i class="fa fa-slack" aria-hidden="true"><small> rios.isaac@webmnoster.mx</small></i>
+							</span> 
+						</div>
+					</div>				
 			</div>
-
 		</div>
 	</div>
 
