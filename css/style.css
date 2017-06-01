@@ -1,7 +1,7 @@
-/*
+
 body{
 	background-color: #0B4F6C;
-}*/
+}
 .ipr-drawer{
 	border-right: none;
 }
@@ -23,13 +23,14 @@ body{
 }
 .ipr-icon:hover {
 	color: black;
+	font-size: 1.5em
 
 }
 /* footer */
 .ipr-informacion{
 		position: relative;;
 		background: url('../images/headee1.jpg') center top no-repeat;
-		max-height: 400px;
+		max-height: 450px;
 		min-height: 150px;
 		text-align: center;
 }
@@ -125,6 +126,7 @@ text-align: center;
 	/*background: transparent;*/
 	background: transparent;
 }
+
 #grid-card .mdl-card__media img{
 	width: 100%;
 }
