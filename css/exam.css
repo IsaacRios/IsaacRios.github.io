@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+#Questionary{
+	background-color: transparent;
+}
+#DQL{
+	background-color: black;
+}
+#Glosary{
+	background-color: transparent;
+}
+#Questionary, #DQL, #Glosary{
+	height: 700px;
+	padding-top: 2em;
+}
