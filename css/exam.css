@@ -18,6 +18,12 @@ body {
 	background-color: transparent;
 }
 #Questionary, #DQL, #Glosary{
-	height: 700px;
+	min-height: 400px;
 	padding-top: 2em;
+}
+.ipr-exam-center{
+  padding: 5%;
+}
+.ipr-exam-answer{
+  font-size: 2em;
 }
