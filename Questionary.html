@@ -37,32 +37,45 @@
     <h3 class="thin">Questionary</h3>
     <p class="bold">Questions and  answers</p>
   </div>
+<!-- INICIAN LAS PREGUNTAS -->
 <div class="ipr-exam-center">
   <ul class="collapsible popout" data-collapsible="accordion">
     <li>
       <div class="collapsible-header"><i class="fa fa-question-circle" aria-hidden="true"></i>
       <ul>
-        <li>¿Where is my mind?</li>
-        <li>a. zxcvb</li>
-        <li>b. asdfg</li>
-        <li>c. qwerty</li>
+        <li>Does the Contect Server allow access to content on the file system?</li>
+        <li>a. Yes, all users</li>
+        <li>b. Yes, only the Documentum installation owner</li>
+        <li>c. No</li>
       </ul></div>
-      <div class="collapsible-body"><span class="ipr-exam-answer ipr-informacion-text">c. Lorem ipsum dolor sit amet.<i class="fa fa-check-circle" aria-hidden="true"></i>
-</span></div>
+      <div class="collapsible-body"><span class="ipr-exam-answer ipr-informacion-text">
+        b. The files are stored in a protected directory structure. <br>
+        By default, only the Documentum installation owner account can directly access the files on the file system.
+        <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+      </div>
+      <div>
+        <p><small>Technical Fundamentals of Documentum, Book 1. p 10-7</small></p>
+      </div>
     </li>
     <li>
       <div class="collapsible-header"><i class="fa fa-question-circle" aria-hidden="true"></i>
       <ul>
-        <li class="bold">¿Where is my mind?</li>
-        <li>a. zxcvb</li>
-        <li>b. asdfg</li>
-        <li>c. qwerty</li>
+        <li class="bold">Does the RDBMS server have to be on the same machine as Content Server?</li>
+        <li>a. Yes, only if se the same installation user name</li>
+        <li>b. Yes, always </li>
+        <li>c. No</li>
       </ul></div>
-      <div class="collapsible-body"><span class="ipr-exam-answer ipr-informacion-text">c. Lorem ipsum dolor sit amet.<i class="fa fa-check-circle" aria-hidden="true"></i>
-</span></div>
+      <div class="collapsible-body"><span class="ipr-exam-answer ipr-informacion-text">
+        c. NO, When the RDBMS is on a separate machine, Documentum connects using the appropiate networking software such as SQL*Net for Oracle.
+        <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+      </div>
+      <div>
+        <p><small>Technical Fundamentals of Documentum, Book 1. p 10-7</small></p>
+      </div>
     </li>
   </ul>
 </div>
+<!-- TERMINA ESTRUCTURA DE LAS PREGUNTAS -->
 
 
 </section>
