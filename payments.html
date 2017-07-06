@@ -12,6 +12,20 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<style>
+			.demo-card-wide.mdl-card {
+			  width: 450px;
+			}
+			.demo-card-wide > .mdl-card__title {
+			  max-width: 150px;
+			  background: url('images/hsbc.jpeg') center / cover;
+			}
+
+			.demo-card-bankaool > .mdl-card__title {
+			  max-width: 150px;
+			  background: url('images/hsbc.jpeg') center / cover;
+			}
+		</style>
 	</head>
 <body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -37,7 +51,7 @@
 							<i class="material-icons">payment</i>
 							Payments
 						</a>
-						<a href="" class="mdl-navigation__link">
+						<a href="payments.html#FacturaElectronica" class="mdl-navigation__link">
 							<i class="material-icons">description</i>
 							Factura electrónica
 						</a>				
@@ -61,70 +75,85 @@
 				</div>
 		<div class="mdl-layout__content">
 			<!-- Wide card with share menu button -->
+	<section id="Payments">
 			<div class="mdl-grid">
 				<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--10-col-phone">
 					<div class="ipr-card">
-					<style>
-					.demo-card-wide.mdl-card {
-					  width: 450px;
-					}
-					.demo-card-wide > .mdl-card__title {
-					  max-width: 150px;
-					  background: url('images/hsbc.jpeg') center / cover;
-					}
-					</style>
-
-					<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-					  <div class="mdl-card__title">
-					    <!-- PIC HSBC-->
-					  </div>
-					  <div class="mdl-card__supporting-text">
-						  <ul>
-						  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content">Isaac Pérez Ríos</span></li>
-						  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>Cuenta:</small>
-						  	<strong class="ipr-iconBlack">6417 6320 68</strong></span></li>
-						  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>CLABE:</small>
-						  	 0216 5006 4176 3206 81</span></li>
-						  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>Número de tarjeta:</small>
-						  	 4213 1660 6887 5933 </span> </li>
-						  </ul>
-					  </div>
-				
-						<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+						<div class="demo-card-wide mdl-card mdl-shadow--2dp ipr-jumpBox">
+						  	<img src="images/hsbc.jpeg" class="ipr-card-img">
 						  <div class="mdl-card__supporting-text">
 							  <ul>
-							  	<li class="mdl-list__item"><span class="ipr-iconBlack">
-								<strong>PERI8710304I7</strong></span>
-								<address>Calle Fobos #1b 
-								Fraccionamiento los Ángeles 
-								CP 72700, 
-								Cuautlancingo, Puebla.</address>
-								</li>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content">Isaac Pérez Ríos</span></li>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>Cuenta:</small>
+							  	<strong class="ipr-iconBlack">6417 6320 68</strong></span></li>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>CLABE:</small>
+							  	 0216 5006 4176 3206 81</span></li>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>Número de tarjeta:</small>
+							  	 4213 1660 6887 5933 </span> </li>
 							  </ul>
-						  </div>				 
-						</div>
-						<div class="mdl-card__actions mdl-card--border">
-						    <a href="http://www.facturainteligente.com/buzon.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank">
-						      Buzón Validador XML
-						    </a>
-						 </div>
-						 <div class="mdl-card__menu">
-						 <a href="https://www.hsbc.com.mx/1/2/!ut/p/c5/04_SB8K8xLLM9MSSzPy8xBz9CP0os3gDgzAfSycDUy8LAzNDbz8vbzMDKADKR5rFmzt6mhkYmRh4-jsZWBp4-pi6uDmFBRoaGBiDdOOQtfAxI6DbgBjdzu6OHibmPkDVYZ6uBp4mTiYGpr5uhgaehOwuyA0NDXVUVAQA5xHwbA!!/" target="_blank" title="Online Banking" style="color:red">
-						 	<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-						      <i class="fa fa-bank"></i>
-						    </button>
-						 </a>
-						    
-						 </div>	
+						  </div>
+							 <div class="mdl-card__menu">
+							 <a href="https://www.hsbc.com.mx/1/2/!ut/p/c5/04_SB8K8xLLM9MSSzPy8xBz9CP0os3gDgzAfSycDUy8LAzNDbz8vbzMDKADKR5rFmzt6mhkYmRh4-jsZWBp4-pi6uDmFBRoaGBiDdOOQtfAxI6DbgBjdzu6OHibmPkDVYZ6uBp4mTiYGpr5uhgaehOwuyA0NDXVUVAQA5xHwbA!!/" target="_blank" title="Online Banking" style="color:red">
+							 	<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+							      <i class="fa fa-bank"></i>
+							    </button>
+							 </a>
+							 </div>	
+						</div> <!-- FIN card1 -->
 					</div>
-				</div>
+				</div> <!-- FIN primera columna -->
+				<div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+					<div class="ipr-card">
+						<div class="demo-card-wide mdl-card mdl-shadow--2dp ipr-jumpBox">
+						    <img src="images/logo_bankaool.png" class="ipr-card-img">
+						  <div class="mdl-card__supporting-text">
+							  <ul>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content">Isaac Pérez Ríos</span></li>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>Cuenta:</small>
+							  	<strong class="ipr-iconBlack">1040 0299 140</strong></span></li>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>CLABE:</small>
+							  	 1471 8010 4002 9914 01</span></li>
+							  	<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><small>Número de tarjeta:</small>
+							  	 ---- ---- ---- ---- </span> </li>
+							  </ul>
+						  </div>
+							 <div class="mdl-card__menu">
+							 <a href="https://www.bankaool.com/web/" target="_blank" title="Online Banking" style="color:purple">
+							 	<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+							      <i class="fa fa-bank"></i>
+							    </button>
+							 </a>
+							 </div>	
+						</div> <!-- FIN card2 -->
+					</div>
+				
+				</div> <!-- FIN segunda columna -->
+			</div> <!-- GRID -->
+	</section>
+	<section id="FacturaElectronica">
+		<div class="ipr-card">
+		<h2>Facturación Electrónica</h2>
+			<div class="demo-card-wide mdl-card mdl-shadow--2dp">	
+				<div class="mdl-card__supporting-text">
+				  <ul>
+				  	<li class="mdl-list__item"><span class="ipr-iconBlack">
+						<strong>PERI8710304I7</strong></span>
+						<address>Calle Fobos #1b 
+						Fraccionamiento los Ángeles 
+						CP 72700, 
+						Cuautlancingo, Puebla.</address>
+					</li>
+				  </ul>
 			</div>
-			<div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--2-col-phone">
-				<!-- segunda columna -->
+			<div class="mdl-card__actions mdl-card--border">
+			    <a href="http://www.facturainteligente.com/buzon.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank">
+			    Buzón Validador XML
+				</a>
+			</div>				 
 			</div>
-		</div>
-		
-	
+		</div>	
+	</section>
+
 	<!--Section Información-->
 			<div class="ipr-informacion" id="ipr-Contact">
 					<div class="ipr-informacion-text">

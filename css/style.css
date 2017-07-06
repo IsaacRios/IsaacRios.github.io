@@ -8,6 +8,9 @@ body{
 	padding: 5%;
 	text-align: center;	
 }
+.ipr-card-img{
+	max-width: 200px;
+}
 .ipr-drawer{
 	border-right: none;
 }
@@ -143,10 +146,16 @@ text-align: center;
 	padding: 36px 0;
 	text-align: center;
 }
+#FacturaElectronica{
+	background-color: white;
+}
 #grid-card .mdl-card__media{
 	overflow: hidden;
 	/*background: transparent;*/
 	background: transparent;
+}
+#Payments{
+
 }
 
 #grid-card .mdl-card__media img{
