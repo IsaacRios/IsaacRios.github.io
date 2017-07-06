@@ -24,7 +24,15 @@ body{
 .ipr-icon:hover {
 	color: black;
 	font-size: 1.5em
+}
 
+.ipr-iconBlack{
+	margin: 5px;
+	color: black;
+}
+.ipr-iconBlack:hover {
+	color: black;
+	font-size: 1.5em
 }
 /* footer */
 .ipr-informacion{
