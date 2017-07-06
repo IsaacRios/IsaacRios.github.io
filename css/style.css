@@ -2,6 +2,12 @@
 body{
 	background-color: #0B4F6C;
 }
+.ipr-card{
+	margin-left: 5%;
+	max-width: 800px;
+	padding: 5%;
+	text-align: center;	
+}
 .ipr-drawer{
 	border-right: none;
 }
@@ -36,7 +42,7 @@ body{
 }
 /* footer */
 .ipr-informacion{
-		position: relative;;
+		position: relative;
 		background: url('../images/headee1.jpg') center top no-repeat;
 		max-height: 450px;
 		min-height: 150px;
@@ -45,9 +51,9 @@ body{
 
 .ipr-informacion-text{
 	color: white;
-	margin-left: 25%;
+	margin-left: 20%;
 	max-width: 800px;
-	padding: 15px;
+	padding: 5%;
 	text-align: center;
 }
 
@@ -145,7 +151,4 @@ text-align: center;
 
 #grid-card .mdl-card__media img{
 	width: 100%;
-}
-#ipr-hsbcCard{
-	
 }
