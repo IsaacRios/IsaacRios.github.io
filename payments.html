@@ -79,7 +79,7 @@
 			<!-- Wide card with share menu button -->
 	<section id="Payments">
 			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--10-col-phone">
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
 					<div class="ipr-card">
 						<div class="demo-card-wide mdl-card mdl-shadow--2dp ipr-jumpBox">
 						  	<img src="images/hsbc.jpeg" class="ipr-card-img">
@@ -104,7 +104,7 @@
 						</div> <!-- FIN card1 -->
 					</div>
 				</div> <!-- FIN primera columna -->
-				<div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
 					<div class="ipr-card">
 						<div class="demo-card-wide mdl-card mdl-shadow--2dp ipr-jumpBox">
 						    <img src="images/logo_bankaool.png" class="ipr-card-img">
@@ -127,35 +127,89 @@
 							 </a>
 							 </div>	
 						</div> <!-- FIN card2 -->
-					</div>
-				
+					</div>					
 				</div> <!-- FIN segunda columna -->
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
+				<!-- Simple Tooltip -->
+					<div class="ipr-informacion-text">
+						<a href="#FacturaElectronica" class="mdl-button ipr-button-float" id="tt1"><i class="material-icons">expand_more</i></a>
+						<div class="mdl-tooltip" data-mdl-for="tt1">
+							<h5>Factura electrónica</h5>
+						</div>	
+					</div>
+				</div>
 			</div> <!-- GRID -->
+			<hr>
+				<div class="ipr-informacion-text">
+					<div> <!-- Button Paypal -->
+						<p>Realiza pagos seguros con Paypal:</p>
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="DYM4HWCSWFANE">
+							<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+							<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+						</form>		
+					</div> <!-- Fin Button Paypal -->
+				</div> <!-- Fin Segunda Fila -->
 	</section>
 	<section id="FacturaElectronica">
-		<div class="ipr-card">
-		<h2>Facturación Electrónica</h2>
-			<div class="demo-card-wide mdl-card mdl-shadow--2dp">	
-				<div class="mdl-card__supporting-text">
-				  <ul>
-				  	<li class="mdl-list__item"><span class="ipr-iconBlack">
-						<strong>PERI8710304I7</strong></span>
-						<address>Calle Fobos #1b 
-						Fraccionamiento los Ángeles 
-						CP 72700, 
-						Cuautlancingo, Puebla.</address>
-					</li>
-				  </ul>
+		<div class="ipr-informacion-text">
+			<div class="ipr-slogan">
+				<h2>Facturación Electrónica</h2>
+				<img src="images/logo-sloganFI.png" class="ipr-card-img">
 			</div>
-			<div class="mdl-card__actions mdl-card--border">
-			    <a href="http://www.facturainteligente.com/buzon.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank">
-			    Buzón Validador XML
-				</a>
-			</div>				 
+		</div>
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
+					<div class="demo-card-wide mdl-card mdl-shadow--2dp">	
+						<div class="mdl-card__supporting-text">
+						  <ul>
+						  	<li class="mdl-list__item"><span class="ipr-iconBlack">
+								<strong>PERI8710304I7</strong></span>
+								<address>Calle Fobos #1b 
+								Fraccionamiento los Ángeles 
+								CP 72700, 
+								Cuautlancingo, Puebla.</address>
+							</li>
+						  </ul>
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+						    <a href="http://www.facturainteligente.com/buzon.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank" title="Enviar mi XML">
+						    Buzón Validador XML
+							</a>
+						</div>				 
+					</div> <!-- FIN card1 -->
+				</div> <!-- FIN col1 -->
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
+					<div class="demo-card-wide mdl-card mdl-shadow--2dp">	
+						<div class="mdl-card__supporting-text">
+						  <ul>
+						  	<li class="mdl-list__item">
+						  	<span style="text-align:center"> ¿ Necesitas facturar ? <br>
+						  	<a href="https://facturainteligentemx.blogspot.mx/" style="color: red" target="_blank"><small>Blog de facturación</small></a>
+							</span>
+							</li>
+						  </ul>
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+						    <a href="https://www.appfacturainteligente.com/CFDI/Presentacion/Usuario/RegistroUsuario.aspx?clave=FI-D000207" 
+						    class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank" title="Registro">
+						    Obtén 5 facturas de regalo
+							</a>
+						</div>				 
+					</div> <!-- FIN card2 -->
+				</div> <!-- FIN col2 -->
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
+							<div class="ipr-informacion-text">
+				<a href="#Payments" class="mdl-button ipr-button-float" id="tt2"><i class="material-icons">expand_less</i></a>
+				<div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="tt2">
+					<h5>Pago en línea</h5>
+				</div>
 			</div>
-		</div>	
+				</div><!-- FIN col3 -->
+			</div> <!-- FIN grid -->
+	
 	</section>
-
 	<!--Section Información-->
 			<div class="ipr-informacion" id="ipr-Contact">
 					<div class="ipr-informacion-text">
@@ -201,7 +255,6 @@
 							<i class="fa fa-google-plus" aria-hidden="true"></i>
 						</button>
 					</a>
-
 						<div>
 							<span class="ipr-icon">
 								<i class="fa fa-whatsapp" aria-hidden="true"><small> +52(044) 222 1 26 36 43</small></i>
