@@ -1,0 +1,26 @@
+
+.Fe2{
+	background-color: transparent;
+	height: 650px;
+	width: 100%;
+	background: url('../images/cel2.png') center no-repeat;
+
+}
+
+.logoSAT{
+	opacity: .1;
+	height: 100px;
+	margin-top: -100px;
+}
+#FE2{
+	background-color: white;
+	min-height: 500px;
+
+
+}
+#FIFooter{
+	background: url('../images/footerFI.png') center no-repeat;
+	background-size: cover;
+	min-height: 100px;
+	width: 100%;
+}
