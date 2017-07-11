@@ -1,12 +1,28 @@
 
 .Fe2{
-	background-color: transparent;
-	height: 650px;
-	width: 100%;
-	background: url('../images/cel2.png') center no-repeat;
-
+	/*background: url('../images/celp.png') center no-repeat;*/
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	float: right;
 }
-
+.Fe25{
+	/*background: url('../images/FIapp.png') center no-repeat;*/
+	left: 70px; 
+	top: 75px;
+	z-index: 2;
+	position: absolute;
+	text-align: center;
+	float: right;
+}
+.FIfooter{
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+}
 .logoSAT{
 	opacity: .1;
 	height: 100px;
@@ -14,13 +30,16 @@
 }
 #FE2{
 	background-color: white;
-	min-height: 500px;
-
+	min-height: 475px;
+}
+#PagoOnline{
 
 }
 #FIFooter{
-	background: url('../images/footerFI.png') center no-repeat;
-	background-size: cover;
-	min-height: 100px;
+	/*background: url('../images/footerRed.jpg') center no-repeat;
+	background-size: cover;*/
+	background-color: #e53935;
+	min-height: 80px;
+	max-height: 200px;
 	width: 100%;
 }
