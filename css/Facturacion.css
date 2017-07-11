@@ -28,9 +28,14 @@
 	height: 100px;
 	margin-top: -100px;
 }
+.paymentButton{
+	width: 250px;
+}
 #FE2{
 	background-color: white;
 	min-height: 475px;
+	padding-left: 5%;
+	padding-top: 5%;
 }
 #PagoOnline{
 
