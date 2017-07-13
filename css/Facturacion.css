@@ -1,3 +1,7 @@
+.celButton{
+	width: 130px;
+	margin-top: .8em;
+}
 
 .Fe2{
 	/*background: url('../images/celp.png') center no-repeat;*/
@@ -14,6 +18,15 @@
 	position: absolute;
 	text-align: center;
 	float: right;
+	width: 140px;
+	height: 220px;
+	background-color: #e53935;
+	border: 3px solid black;
+	padding: 3%;
+	padding-top: 10%;
+	padding-bottom: 2%;
+	color: white;
+	font-size: 2em;
 }
 .FIfooter{
 	text-align: center;
@@ -22,6 +35,7 @@
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .logoSAT{
 	opacity: .1;
@@ -31,6 +45,8 @@
 .paymentButton{
 	width: 250px;
 }
+
+
 #FE2{
 	background-color: white;
 	min-height: 475px;

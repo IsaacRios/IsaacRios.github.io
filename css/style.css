@@ -148,7 +148,7 @@ text-align: center;
 }
 #FacturaElectronica{
 	background-color: white;
-	min-height: 700px;
+	min-height: 350px;
 }
 #grid-card .mdl-card__media{
 	overflow: hidden;
