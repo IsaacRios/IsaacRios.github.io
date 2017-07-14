@@ -34,7 +34,10 @@ body{
 	color: black;
 	font-size: 1.5em
 }
-
+.ipr-icon-big{
+	font-size: 1.2em;
+	color: #e53935;
+}
 .ipr-iconBlack{
 	margin: 5px;
 	color: black;
