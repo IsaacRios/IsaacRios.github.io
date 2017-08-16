@@ -11,6 +11,11 @@ body{
 .ipr-card-img{
 	max-width: 200px;
 }
+.ipr-contact-card{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	max-width: 200px;
+}
 .ipr-drawer{
 	border-right: none;
 }
@@ -25,14 +30,22 @@ body{
 	margin: 5px;
 	color: white;
 }
+.ipr-icon:hover {
+	color: black;
+	font-size: 1.5em
+}
 .ipr-icon2{
 	margin: 5px;
 	color: white;
 	background-color: grey;
 }
-.ipr-icon:hover {
-	color: black;
-	font-size: 1.5em
+.ipr-icon3{
+	font-size: 1em;  
+	margin: 5px;
+	color: #0B4F6C;
+}
+.ipr-icon3:hover{
+	color: black;	
 }
 .ipr-icon-big{
 	font-size: 1.2em;
@@ -45,6 +58,10 @@ body{
 .ipr-iconBlack:hover {
 	color: black;
 	font-size: 1.5em
+}
+.ipr-icon-footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 /* footer */
 .ipr-informacion{
@@ -71,7 +88,9 @@ text-align: center;
 	color: grey;
 	font-size: 0.8em;
 }
-
+.ipr-font-droid{
+	font-family: 'Droid Sans Mono', monospace;
+}
 .ipr-link{
 	color: lightgrey !important;
 }
@@ -129,12 +148,18 @@ text-align: center;
 }
 .ipr-photo{
 	border-radius: 90px;
-	width: 90px;
+	width: 8em;
 	margin: 25px;
-	opacity: .5;
+	opacity: .9;
 }
 .ipr-photo:hover{
-	opacity: .9;
+	opacity: .8;
+}
+
+.ipr-quote{
+	padding-left: 5%;
+	padding-right: 5%;
+
 }
 
 /*---  CSS de Card ---*/

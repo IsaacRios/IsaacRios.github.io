@@ -3,64 +3,72 @@
 	<head>		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Isaac Pérez Ríos</title>
+		<title>Isaac Rios</title>
 		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
+			<span class="mdl-layout-title ipr-font-droid">ISAAC RIOS</span>
 				<div class="mdl-layout-spacer"></div>
-
 				<!--Navegacion principal-->
-				<nav class="nav-link-sub mdl-navigation">
-					<a href="payments.html" class="nav-link-sub mdl-navigation__link" title="Pagos y facturas">Payments</a>			
-					<a href="#ipr-Contact" class="nav-link-sub mdl-navigation__link">Contact</a>
+				<nav class="nav-link-sub mdl-navigation">			
+					<a href="#ipr-Contact" class="nav-link-sub mdl-navigation__link" >
+						<i class="material-icons" id="ContactIcon">contact_mail</i>
+						<div  class="mdl-tooltip mdl-tooltip--left" data-mdl-for="ContactIcon">
+						Contact					
+						</div>
+					</a>
 				</nav>
 			</div>
 		</header>
-				<!--Navegacion lateral-->
-				<div class="ipr-drawer mdl-layout__drawer">
-					<span class="mdl-color--primary mdl-layout-title">
-						<a href="index.html"><img class="ipr-logo" src="images/logo1.png" alt="logo" title="about"></a>					
-					</span>
-					<nav class="mdl-navigation">
-						<a href="payments.html" class="mdl-navigation__link">				
-							<i class="material-icons">payment</i>
-							Payments
-						</a>
-						<a href="FacturaElectronica.html" class="mdl-navigation__link">
-							<i class="material-icons">description</i>
-							Factura electrónica
-						</a>				
-						<!-- <a href="" class="mdl-navigation__link">
-							<i class="material-icons">shopping_cart</i>
-							eCommerce							
-						</a> -->
-						<a href="http://freaksystem666.blogspot.mx/" class="mdl-navigation__link" title="Freak System!" target="_blank">
-							<i class="material-icons">local_cafe</i>
-							Blog							
-						</a>
-											
-						<a href="https://www.canva.com/design/DACBWyrg_Fc/XKf6JM_RGQZVPdeUvFyXXQ/view?utm_content=DACBWyrg_Fc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" 
-						class="mdl-navigation__link">
-							<i class="material-icons">work</i>
-							Curriculum						
-						</a>
-						<a href="#ipr-Contact" class="mdl-navigation__link">
-							<i class="material-icons">textsms</i>
-							Contact							
-						</a>				
-					</nav>
+	
+			<!--Navegacion lateral-->
+		<div class="ipr-drawer mdl-layout__drawer">
+			<span class="mdl-color--primary mdl-layout-title">
+				<a href="index.html">
+				<i class="fa fa-home fa-2x ipr-logo" aria-hidden="true" id="Home"></i>
+				<div  class="mdl-tooltip mdl-tooltip--right" data-mdl-for="Home">
+					Home					
 				</div>
+			</span>
+			<nav class="mdl-navigation">
+				<a href="payments.html" class="mdl-navigation__link">		
+					<i class="material-icons">payment</i>
+					Payments
+				</a>
+				<a href="FacturaElectronica.html" class="mdl-navigation__link">
+					<i class="material-icons">description</i>
+					Factura electrónica
+				</a>				
+				<a href="" class="mdl-navigation__link">
+					<i class="material-icons">shopping_cart</i>
+					eCommerce							
+				</a>
+				<a href="http://freaksystem666.blogspot.mx/" class="mdl-navigation__link" title="Freak System!" target="_blank">
+					<i class="material-icons">local_cafe</i>
+					Blog							
+				</a>
+				<a href="https://www.canva.com/design/DACBWyrg_Fc/XKf6JM_RGQZVPdeUvFyXXQ/view?utm_content=DACBWyrg_Fc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" class="mdl-navigation__link">
+					<i class="material-icons">work</i>
+					Curriculum						
+				</a>
+				<a href="#ipr-Contact" class="mdl-navigation__link">
+					<i class="material-icons">contact_mail</i>
+					Contact							
+					</a>				
+			</nav>
+		</div>
 
 		<!--Slide-->
+
 		<div class="mdl-layout__content">
 			<div class="ipr-slide mdl-typography--text-center">
 				<img src="images/photo.jpg" class="ipr-photo">
@@ -69,21 +77,23 @@
 						<i class="fa fa-linkedin" aria-hidden="true"></i>
 					</button>
 				</a>
-
 				<div class="ipr-slogan ipr-slogan-ppal">
 					<h1 class="ipr-title">Isaac Pérez Ríos</h1>
-				
 				</div>
 				<br>
 				<div class="ipr-slogan-sub ipr-slogan-ppal">
-				<blockquote>I am the css to your html.</blockquote>
+				<div class="ipr-quote ipr-font-droid">
+					<blockquote>I am WebMonster!</blockquote>
+				</div> 
 					I'm specialist to develop interfaces and deploy of them <br>
 					I use any web tool (like a javascript, SASS, Angular or React) 
 					to design agile solutions and also build applications friendly to the final user.
 				</div>
 				<a href="#section-cards" class="mdl-button ipr-button-float"><i class="material-icons">expand_more</i></a>
 			</div>
-			<!--Section cards-->
+
+		<!--Section cards-->
+
 		<section id="section-cards" class="ipr-section-card">
 			<a name="Isaac"></a>
 			<div class="ipr-section-title mdl-typography--display-1-color-contrast">
@@ -104,9 +114,6 @@
 						The most important thing is the experience and usability for the user, regardless of the platform, operating system or hardware.</span>
 					</div>
 					<div class="mdl-card__actions">
-						<span href="#" class="ipr-link mdl-typography--text-uppercase">Creative proces
-						<i class="material-icons">chevron_right</i>
-						</span>
 						<a href="https://github.com/IsaacRios" target="_blank">
 							<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
 								<i class="fa fa-github" aria-hidden="true"></i>
@@ -136,140 +143,131 @@
 					 </span>
 					</div>
 					<div class="mdl-card__actions">
-						<a href="http://www.oxitocinamarketing.com/desarrollo-web" class="ipr-link mdl-button mdl-js-button mdl-typography--text-uppercase" target="_blank">More info
-						<i class="material-icons">chevron_right</i>
+						<a href="http://www.oxitocinamarketing.com/desarrollo-web" target="_blank">
+							<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
+								<i class="material-icons">shopping_cart</i>
+							</button>	
 						</a>
 					</div>
 				</div>				
-			</div>
+			</div> <!-- Fin Grid1 -->
 			<div id="grid-card" class="mdl-grid">
-			<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-					<div class="mdl-card__media">
-						<img src="images/foot0.jpg" alt="nothing">						
-					</div>
-					<div class="mdl-card__title">
-						<h4 class="mdl-card__title-text">ECM</h4>
-					</div>
-					<div class="mdl-card__supporting-text">
-						<span class="mdl-typography--font-light">
-						<i> (Enterprise content management) </i><br>
-						File Management, Document Management System and digitalization.</span>
-					</div>
-					<div class="mdl-card__actions">
-						<a href="http://www.otac.com.mx/" class="ipr-link mdl-button mdl-js-button mdl-typography--text-uppercase" target="_blank">
-						More info
-						<i class="material-icons">chevron_right</i>
-						<a href="IndExam.html" class="ipr-link mdl-button mdl-js-button mdl-typography--text-uppercase" target="_blank">
-						
-						<i class="material-icons">import_contacts</i>
-						</a>
-					</div>
-				</div>
 				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-					<div class="mdl-card__media">
-						<img src="images/foot6.jpg" alt="nothing">						
-					</div>
-					<div class="mdl-card__title">
-						<h4 class="mdl-card__title-text">Support engineer</h4>
-					</div>
-					<div class="mdl-card__supporting-text">
-						<span class="mdl-typography--font-light">
-						My first proactive hobbie since the high school. I grew up giving support to any hardware and computer system that surrounds me.
-					 </span>
-					</div>
-					<div class="mdl-card__actions">
-						<a href="http:www.webmonster.mx" class="ipr-link mdl-button mdl-js-button mdl-typography--text-uppercase" target="_blank" title="be a WebMonster!!!!!">
-						More info
-						<i class="material-icons">chevron_right</i>
-						</a>
-					</div>
-				</div>
-				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-					<div class="mdl-card__media">
-						<img src="images/foot1.jpg" alt="nothing">						
-					</div>
-					<div class="mdl-card__title">
-						<h4 class="mdl-card__title-text">Factura Electrónica (México)</h4>
-					</div>
-					<div class="mdl-card__supporting-text">
-						<span class="mdl-typography--font-light">
-						Proveedor autorizado de certificación (PAC). WebServices, SOAP, XML.
-					 </span>
-					</div>
-					<div class="mdl-card__actions">
-						<a href="FacturaElectronica.html" class="ipr-link mdl-button mdl-js-button mdl-typography--text-uppercase" target="_blank" id="tt1">
-						Información
-						<i class="material-icons">chevron_right</i>
-						<div  class="mdl-tooltip" data-mdl-for="tt1">
-							Electronic Billing					
+						<div class="mdl-card__media">
+							<img src="images/foot0.jpg" alt="nothing">						
 						</div>
-						</a>
+						<div class="mdl-card__title">
+							<h4 class="mdl-card__title-text">ECM</h4>
+						</div>
+						<div class="mdl-card__supporting-text">
+							<span class="mdl-typography--font-light">
+							<i> (Enterprise content management) </i><br>
+							File Management, Document Management System and digitalization.</span>
+						</div>
+						<div class="mdl-card__actions">
+							<a href="http://www.otac.com.mx/" target="_blank">
+								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
+									<i class="fa fa-database" aria-hidden="true"></i>
+								</button>	
+							</a>
+						</div>
 					</div>
-				</div>
-			</div>
-		
+					<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
+						<div class="mdl-card__media">
+							<img src="images/foot6.jpg" alt="nothing">						
+						</div>
+						<div class="mdl-card__title">
+							<h4 class="mdl-card__title-text">Support engineer</h4>
+						</div>
+						<div class="mdl-card__supporting-text">
+							<span class="mdl-typography--font-light">
+								My first proactive hobbie since the high school. I grew up giving support to any hardware and computer system that surrounds me.
+						 	</span>
+						</div>
+						<div class="mdl-card__actions">
+							<a href="http:www.webmonster.mx" target="_blank">
+								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
+									<i class="material-icons">phonelink_setup</i>
+								</button>	
+							</a>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
+						<div class="mdl-card__media">
+							<img src="images/foot1.jpg" alt="nothing">						
+						</div>
+						<div class="mdl-card__title">
+							<h4 class="mdl-card__title-text">Factura Electrónica (México)</h4>
+						</div>
+						<div class="mdl-card__supporting-text">
+							<span class="mdl-typography--font-light">
+							Proveedor autorizado de certificación (PAC).
+							</span>
+						</div>
+						<div class="mdl-card__actions">
+							<a href="FacturaElectronica.html" target="_blank" id="tt1">
+								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
+									<i class="fa fa-file-text" aria-hidden="true"></i>
+								</button>	
+							</a>
+							<div  class="mdl-tooltip mdl-tooltip--right" data-mdl-for="tt1">
+								Electronic Billing					
+							</div>
+							</a>
+						</div>
+					</div>
+			</div> <!-- Fin Grid2 -->
 		</section>
-		<!--Section Información-->
-			<div class="ipr-informacion" id="ipr-Contact">
-					<div class="ipr-informacion-text">
-					<h4>Contact:</h4>
-
-					<a href="https://www.facebook.com/profile.php?id=1207788982" target="_blank">
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-						</button>
-					</a>
-					<a href="https://twitter.com/cyberchakal" target="_blank">
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-						</button>
-					</a>
-					<a href="https://www.instagram.com/bike_bastards/" target="_blank">
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-						</button>
-					</a>
-					<a href="http://cyberchakal.tumblr.com/" target="_blank">						
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-tumblr" aria-hidden="true"></i>
-						</button> 
-					</a>
-					<a href="https://es.pinterest.com/webmonstermx/" target="_blank">
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-pinterest" aria-hidden="true"></i>
-						</button>
-					</a>
-					<a href="https://www.flickr.com/photos/ak47xacatl/albums" target="_blank">
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-flickr" aria-hidden="true"></i>
-						</button>
-					</a>
-					<a href="https://www.youtube.com/user/donChacal" target="_blank">
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-youtube-play" aria-hidden="true"></i>
-						</button>
-					</a>
-					<a href="https://plus.google.com/u/0/+IsaacR%C3%ADosWM666" target="_blank">
-						<button class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-							<i class="fa fa-google-plus" aria-hidden="true"></i>
-						</button>
-					</a>
-
-						<div>
-							<span class="ipr-icon">
-								<i class="fa fa-whatsapp" aria-hidden="true"><small> +52(044) 222 1 26 36 43</small></i>
-							 </span>
-							<span class="ipr-icon">
-								<i class="fa fa-skype" aria-hidden="true"><small> isaacwebmonster</small></i>
-							</span> 
-							<span class="ipr-icon">
-								<i class="fa fa-slack" aria-hidden="true"><small> rios.isaac@webmonster.mx</small></i>
-							</span> 
-						</div>
-					</div>				
-			</div>
-		</div>	
-	</div>
+				<!-- footer contact -->
+		<section id="ipr-Contact">
+			<div class="ipr-informacion">
+				<div class="ipr-informacion-text">
+					<img src="images/ycrma.png" alt="Contact" class="ipr-contact-card">
+					<div>
+						<span class="ipr-icon">
+							<i class="fa fa-whatsapp" aria-hidden="true"><small> +52(044) 222 1 26 36 43</small></i>
+						</span>
+						<span class="ipr-icon">
+							<i class="fa fa-skype" aria-hidden="true"><small> isaacwebmonster</small></i>
+						</span> 
+					</div>
+					<div class="ipr-icon-footer">
+						<a href="https://www.facebook.com/profile.php?id=1207788982" target="_blank">
+							<button class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="fa fa-facebook ipr-icon3" aria-hidden="true"></i>
+							</button>
+						</a>
+						<a href="https://twitter.com/cyberchakal" target="_blank">
+							<button class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="fa fa-twitter ipr-icon3" aria-hidden="true"></i>
+							</button>
+						</a>
+						<a href="https://www.instagram.com/bike_bastards/" target="_blank">
+							<button class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="fa fa-instagram ipr-icon3" aria-hidden="true"></i>
+							</button>
+						</a>
+						<a href="http://cyberchakal.tumblr.com/" target="_blank">						
+							<button class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="fa fa-tumblr ipr-icon3" aria-hidden="true"></i>
+							</button>
+						</a>
+						<a href="https://es.pinterest.com/webmonstermx/" target="_blank">
+							<button class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="fa fa-pinterest ipr-icon3" aria-hidden="true"></i>
+							</button>
+						</a>
+						<a href="https://www.youtube.com/user/donChacal" target="_blank">
+							<button class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="fa fa-youtube-play ipr-icon3" aria-hidden="true"></i>
+							</button>
+						</a>
+					</div>
+				</div>				
+			</div> <!--- FIN footer -->
+		</section>
+		</div>	<!-- FIN layout content -->
+	</div> <!-- FIN LAYOUT -->
 
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	</body>
