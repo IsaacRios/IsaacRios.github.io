@@ -15,6 +15,9 @@ body{
 	padding-bottom: 5px;
 	max-width: 270px;
 }
+.ipr-container-text{
+	padding-left: 10%;
+}
 .ipr-drawer{
 	border-right: none;
 }
@@ -180,6 +183,12 @@ text-align: center;
 		height: 550px;
 		min-height: 150px;
 		text-align: center;
+}
+.ipr-text1{
+	font-size: 1.5em;
+	color: black;
+	font-family: 'Droid Sans Mono', monospace;
+
 }
 .Skype-button{
 	border: black 10px;
