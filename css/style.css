@@ -16,7 +16,7 @@ body{
 .ipr-contact-card{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	max-width: 250px;
+	max-width: 270px;
 }
 .ipr-drawer{
 	border-right: none;
@@ -176,6 +176,18 @@ text-align: center;
 	padding: 36px 0;
 	text-align: center;
 }
+
+.ipr-Contact{
+		position: relative;
+		background: url('../images/headee1.jpg') center top no-repeat;
+		height: 550px;
+		min-height: 150px;
+		text-align: center;
+}
+.Skype-button{
+	border: black 10px;
+}
+
 #FacturaElectronica{
 	background-color: white;
 	min-height: 350px;
