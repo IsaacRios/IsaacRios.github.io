@@ -204,7 +204,8 @@ text-align: center;
 	background: transparent;
 }
 #Payments{
-	min-height: 700px;
+	padding-right: 10%;
+	min-height: 500px;
 }
 
 #grid-card .mdl-card__media img{
