@@ -116,6 +116,12 @@ text-align: center;
 	border: outset 5px gray;
 	border-width: medium;
 }
+.ipr-money{
+	color:#e53935;
+}
+.ipr-money:hover{
+	font-size: 3em;
+}
 .ipr-slide{
 	background: url('../images/headee1.jpg') center no-repeat;
 	background-size: cover;
