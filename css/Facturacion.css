@@ -31,8 +31,10 @@
 	padding-bottom: 2%;
 }
 .FIimage{
-	opacity: .7;
+
 	max-width: 150px;
+	-webkit-filter: brightness(70%);
+	filter: brightness(70%);
 }
 .logoSAT{
 	opacity: .1;
