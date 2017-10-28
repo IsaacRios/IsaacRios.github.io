@@ -15,12 +15,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/Facturacion.css">
+		<link rel="stylesheet" type="text/css" href="css/ECommerce.css">
 	</head>
 	<body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
-			<span class="mdl-layout-title ipr-font-droid">ISAAC RIOS</span>
+				<span class="mdl-layout-title ipr-font-droid">ISAAC RIOS</span>
 				<div class="mdl-layout-spacer"></div>
 				<!--Navegacion principal-->
 				<nav class="nav-link-sub mdl-navigation">
@@ -44,7 +46,7 @@
 		<div class="ipr-drawer mdl-layout__drawer">
 			<span class="mdl-color--primary mdl-layout-title">
 				<a href="index.html">
-				<i class="fa fa-home fa-2x ipr-logo" aria-hidden="true" id="Home" style="color:red"></i>
+				<i class="fa fa-home fa-2x ipr-logo" aria-hidden="true" id="Home"></i>
 				<div  class="mdl-tooltip mdl-tooltip--right" data-mdl-for="Home">
 					Home					
 				</div>
@@ -59,7 +61,7 @@
 					Factura electrónica
 				</a>				
 				<a href="ECommerce.html" class="mdl-navigation__link">
-					<i class="material-icons">shopping_cart</i>
+					<i class="material-icons" style="color:red">shopping_cart</i>
 					eCommerce							
 				</a>
 				<a href="http://freaksystem666.blogspot.mx/" class="mdl-navigation__link" title="Freak System!" target="_blank">
@@ -76,159 +78,65 @@
 				</a>				
 			</nav>
 		</div>
+		<!-- FIN Navegacion lateral  -->
 
-		<!--Slide-->
-
-		<div class="mdl-layout__content">
-			<div class="ipr-slide mdl-typography--text-center">
-				<img src="images/photo.jpg" class="ipr-photo">
-				<a href="https://ar.linkedin.com/in/riosystems" target="_blank">
-					<button href="#" class="ipr-icon mdl-button mdl-js-button mdl-button--fab">
-						<i class="fa fa-linkedin" aria-hidden="true"></i>
-					</button>
-				</a>
-				<div class="ipr-slogan ipr-slogan-ppal">
-					<h1 class="ipr-title">Isaac Pérez Ríos</h1>
-				</div>
-				<br>
-				<div class="ipr-slogan-sub ipr-slogan-ppal">
-				<div class="ipr-quote ipr-font-droid">
-					<blockquote>I am WebMonster!</blockquote>
-				</div> <strong>
-					I'm specialist to develop interfaces and deploy of them <br>
-					I use any web tool (like a javascript, Angular or Ionic) 
-					to design agile solutions and also build applications friendly to the final user.
-					</strong>
-				</div>
-				<a href="#section-cards" class="mdl-button ipr-button-float"><i class="material-icons">expand_more</i></a>
-			</div>
-
-		<!--Section cards-->
-
-		<section id="section-cards" class="ipr-section-card">
-			<a name="Isaac"></a>
-			<div class="ipr-section-title mdl-typography--display-1-color-contrast">
-				<h2>Full Stack Developer</h2>				
-				<small>Areas of Expertise:</small>
-			</div>
-
-			<div id="grid-card" class="mdl-grid">
-				<div class="mdl-cell mdl-cell--8-col mdl-cell--5-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-					<div class="mdl-card__media">
-						<img src="images/foot7.jpg" alt="nothing">						
+		<div class="mdl-layout__content"> <!-- layout content -->
+			<section id="eCommerce1">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--5-col">
+						<h3>¿Qué es ECommerce?</h3>
+						<blockquote>El comercio electrónico es el futuro.</blockquote>
+						<p class="ipr-text1">
+						Una tienda en internet es la manera más rápida y económica de aumentar las capacidades de tu negocio, 
+						usando la tecnología de servicios en la nube y enfocado a dispositivos móviles (tablets, smartphones y portatiles).</p>
 					</div>
-					<div class="mdl-card__title">
-						<h4 class="mdl-card__title-text">UI / UX / IXD</h4>
-					</div>
-					<div class="mdl-card__supporting-text">
-						<span class="mdl-typography--font-light">
-						The most important thing is the experience and usability for the user, regardless of the platform, operating system or hardware.</span>
-					</div>
-					<div class="mdl-card__actions">
-						<a href="https://github.com/IsaacRios" target="_blank">
-							<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-								<i class="fa fa-github" aria-hidden="true"></i>
-							</button>	
-						</a>
-						<a href="https://codepen.io/cyberChakal/" target="_blank">
-							<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-								<i class="fa fa-codepen" aria-hidden="true"></i>
-							</button>
-						</a>						
+					<div class="mdl-cell mdl-cell--7-col">
+						<img src="images/45.jpg" alt="Ecommerce image" class="ecommercepic">
 					</div>
 				</div>
-				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-					<div class="mdl-card__media">
-						<img src="images/foot03.jpg" alt="nothing">						
+			</section>
+			<section id="eCommerce2">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--7-col">
+						<img src="images/46.jpg" alt="Ecommerce image" class="ecommercepic">
 					</div>
-					<div class="mdl-card__title">
-						<h4 class="mdl-card__title-text">eCommerce</h4>
+					<div class="mdl-cell mdl-cell--5-col">
+						<h3>Beneficios de una tienda en línea</h3>
+						<ul class="ipr-text1">
+							<li>Gana más clientes</li>
+							<li>Mejora tu administración</li>
+							<li>Vende las 24 horas</li>
+							<li>Facilita tus cobros</li>
+							<li>¡Actualiza tu negocio!</li>
+						</ul>
 					</div>
-					<div class="mdl-card__supporting-text">
-						<span class="mdl-typography--font-light">
-						“You can’t just open a website and expect people to flood in. 
-						If you really want to succeed you have to create traffic.” <br><br>
-						<p>I specialist in web Stores, apps for mobile and services, API REST. <br>
-						In native mode or but CMS stores like Shopify (liquid) or Wix, Wordpress. Online payments, paypal etc and electronic invoice.</b>						
-					 </span>
+				</div>
+			</section>
+			<section id="eCommerce3">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--6-col-phone">
+						<h3 style="color:white">Vamos a potencializar tu empresa:</h3>
+						<p class="ipr-text1">Tenemos las mejores herramientas para adecuar tu tienda,<br>
+							podrás construir tu red de ventas, administrar desde cualquier dispositivo con internet
+							y compartir en tus redes sociales como Facebook o Instagram.
+						</p>
+						<p>Mejoramos y personalizamos tu proyecto en Shopify, Wix, Wordpress, Amazon, eBay, Mercado libre o alguna plataforma con la que ya cuentes.</p>
 					</div>
-					<div class="mdl-card__actions">
-						<a href="http://www.oxitocinamarketing.com/desarrollo-web" target="_blank">
-							<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-								<i class="material-icons">shopping_cart</i>
-							</button>	
-						</a>
+					<div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--6-col-phone eCommerce3">
+						<ul class="ipr-text1">
+							<li class="ipr-icon">Tienda con catálogo de productos</li>
+							<li class="ipr-icon">Formas de pago en línea o en efectivo</li>
+							<li class="ipr-icon">Factura Electrónica</li>
+							<li class="ipr-icon">Publicidad y Marketing digital</li>
+							<li class="ipr-icon">Multiplataforma (Mac o IOs, Android, Windows)</li>
+						</ul>
+						<img src="images/47.jpg" alt="Ecommerce image" class="ecommercepic2">
+						<button class="mdl-button"><a href="#ipr-Contact" class="ipr-text1">Cuentame de tu negocio</a></button>
 					</div>
-				</div>				
-			</div> <!-- Fin Grid1 -->
-			<div id="grid-card" class="mdl-grid">
-				<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-						<div class="mdl-card__media">
-							<img src="images/foot0.jpg" alt="nothing">						
-						</div>
-						<div class="mdl-card__title">
-							<h4 class="mdl-card__title-text">ECM</h4>
-						</div>
-						<div class="mdl-card__supporting-text">
-							<span class="mdl-typography--font-light">
-							<i> (Enterprise content management) </i><br>
-							File Management, Document Management System and digitalization.</span>
-						</div>
-						<div class="mdl-card__actions">
-							<a href="http://www.otac.com.mx/" target="_blank">
-								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-									<i class="fa fa-database" aria-hidden="true"></i>
-								</button>	
-							</a>
-						</div>
-					</div>
-					<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-						<div class="mdl-card__media">
-							<img src="images/foot6.jpg" alt="nothing">						
-						</div>
-						<div class="mdl-card__title">
-							<h4 class="mdl-card__title-text">Support engineer</h4>
-						</div>
-						<div class="mdl-card__supporting-text">
-							<span class="mdl-typography--font-light">
-								My first proactive hobbie since the high school. I grew up giving support to any hardware and computer system that surrounds me.
-						 	</span>
-						</div>
-						<div class="mdl-card__actions">
-							<a href="http:www.webmonster.mx" target="_blank">
-								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-									<i class="material-icons">phonelink_setup</i>
-								</button>	
-							</a>
-						</div>
-					</div>
-					<div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--3dp ipr-jumpBox">
-						<div class="mdl-card__media">
-							<img src="images/foot1.jpg" alt="nothing">						
-						</div>
-						<div class="mdl-card__title">
-							<h4 class="mdl-card__title-text">Factura Electrónica (México)</h4>
-						</div>
-						<div class="mdl-card__supporting-text">
-							<span class="mdl-typography--font-light">
-							Proveedor autorizado de certificación (PAC).
-							</span>
-						</div>
-						<div class="mdl-card__actions">
-							<a href="FacturaElectronica.html" target="_blank" id="tt1">
-								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-									<i class="fa fa-file-text" aria-hidden="true"></i>
-								</button>	
-							</a>
-							<div  class="mdl-tooltip mdl-tooltip--right" data-mdl-for="tt1">
-								Electronic Billing					
-							</div>
-							</a>
-						</div>
-					</div>
-			</div> <!-- Fin Grid2 -->
-		</section>
-				<!-- footer contact -->
+				</div>
+			</section>
+			
+		<!-- footer contact -->
 		<section id="ipr-Contact">
 			<div class="ipr-Contact">
 				<div class="ipr-informacion-text">
@@ -246,7 +154,7 @@
 							</li>
 							<li><a href="http://www.webmonster.mx/" target="_blank" class="ipr-icon" title="I am WebMonster!">www.webmonster.mx</a></li>
 						</ul>
-					</div> <!-- fin col62 -->
+					</div> <!-- FIN col62 -->
 					</div>				
 					<div class="ipr-icon-footer">
 						<a href="https://www.facebook.com/profile.php?id=1207788982" target="_blank">
