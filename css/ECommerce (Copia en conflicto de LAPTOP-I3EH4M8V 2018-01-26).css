@@ -1,0 +1,28 @@
+.eCommerce3{
+	padding-top: 2em;
+	padding-left: 5%;
+}
+.ecommercepic{
+	height:25em; 
+}
+
+.ecommercepic2{
+	height: 20em;
+	margin-bottom: -30px;
+}
+#eCommerce1, #eCommerce2, #eCommerce3{
+	max-height: 950px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 3%;
+}
+#eCommerce1{
+	background-color: #84B9BD;
+}
+#eCommerce2{
+	background-color: white;		
+}
+#eCommerce3{
+	padding-top: 2em;
+	background-color: #5796CC;
+}
