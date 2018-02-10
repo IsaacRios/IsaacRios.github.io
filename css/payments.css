@@ -1,0 +1,7 @@
+.payments-image-zone{
+		position: relative;
+		background: url('../images/card.jpg') center top no-repeat;
+
+		min-height: 400px;
+		text-align: center;
+}
