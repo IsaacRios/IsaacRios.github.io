@@ -207,23 +207,12 @@ text-align: center;
 	border: black 10px;
 }
 
-#FacturaElectronica{
-	background-color: white;
-	min-height: 350px;
-}
 #grid-card .mdl-card__media{
 	overflow: hidden;
 	/*background: transparent;*/
 	background: transparent;
 }
-#Payments{
-	min-height: 500px;
-}
 
 #grid-card .mdl-card__media img{
 	width: 100%;
-}
-
-.paymentsPic{
-	padding-top: 185px;
 }
