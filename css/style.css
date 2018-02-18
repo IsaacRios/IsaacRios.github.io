@@ -9,16 +9,6 @@ body{
 .ipr-card-img{
 	max-width: 200px;
 }
-.ipr-contact-card{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	max-width: 250px;
-	opacity: .5;
-}
-.ipr-contact-card:hover{
-	max-width: 340px;
-	opacity: .9;
-}
 .ipr-contact-text{
 	text-align: left;
 }
@@ -193,7 +183,7 @@ text-align: center;
 .ipr-Contact{
 		position: relative;
 		background: url('../images/headee1.jpg') center top no-repeat;
-		height: 550px;
+		height: 650px;
 		min-height: 150px;
 		text-align: center;
 }
@@ -202,6 +192,9 @@ text-align: center;
 	color: black;
 	font-family: 'Droid Sans Mono', monospace;
 
+}
+.ipr-text-white{
+	color: white;
 }
 .Skype-button{
 	border: black 10px;
