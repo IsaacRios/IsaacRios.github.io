@@ -4,18 +4,27 @@
 }
 
 .FeCircle{
-	background: url('../images/headee1.jpg');
+	background-color: #e53935;
 	padding-top: 35px;
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: center;
 	width: 6em;
-	height: 6em;
+	height: 8em;
 	border: 3px solid white;
-	color: red;
+	color: White;
 	font-size: 	2em;
 	margin-bottom: 10px;
 	margin-left: 35px;
+}
+.FEzonabutton{
+	height: 50px;
+	margin-bottom: 0px;
+	padding: 20px;
+	position: relative;
+}
+.FEzonaText{
+	height: 80px;
 }
 .FEpadding{
 	padding-right: 15%;
