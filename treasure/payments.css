@@ -1,0 +1,27 @@
+.card-hsbc-data{
+	margin-top:  -170px;
+}
+.payments-image-zone{
+	background: url('../images/card.jpg') center no-repeat;
+	min-height: 300px;
+	text-align: center;
+}
+.paymentsPic{
+	padding-top: 185px;
+}
+.payments-text-fiscal{
+	font-size: 1.5 em;
+	color: black;
+}
+.payments-text-red{
+	color: red;
+}
+#FacturaElectronica{
+	background-color: white;
+	min-height: 150px;
+	margin-top: -100px;
+}
+#Payments{
+	background-color: white;
+	min-height: 500px;
+}
