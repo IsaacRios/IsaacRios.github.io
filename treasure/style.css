@@ -41,10 +41,10 @@ body{
 .ipr-icon3{
 	font-size: 1em;  
 	margin: 5px;
-	color: #0B4F6C;
+	color: white;
 }
 .ipr-icon3:hover{
-	color: black;	
+	color: blue;	
 }
 .ipr-icon-big{
 	font-size: 1.2em;
@@ -62,14 +62,14 @@ body{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-/* footer */
+/* footer 
 .ipr-informacion{
 		position: relative;
 		background: url('roi.jpg') center top no-repeat;
 		max-height: 450px;
 		min-height: 150px;
 		text-align: center;
-}
+}*/
 .ipr-informacion-text{
 	color: white;
 	margin-left: 5%;
@@ -133,6 +133,21 @@ text-align: center;
 	font-weight: 700;
 	line-height: 1;
 }
+.ipr-text1{
+	font-size: 1.5em;
+	color: black;
+	font-family: 'Droid Sans Mono', monospace;
+}
+.ipr-text-white{
+	color: white;
+}
+.ipr-text-footer{
+	background-color: grey;
+	text-align: right;
+	opacity: .8;
+	padding: 10px;
+	padding-right: 30px;
+}
 .ipr-title, .ipr-subtitle{
 	font-family: 'Josefin Slab', serif;
 }
@@ -181,22 +196,10 @@ text-align: center;
 
 .ipr-Contact{
 		position: relative;
-		background: url('../images/headee1.jpg') center top no-repeat;
-		height: 650px;
+		background: url('huella.jpg') center top no-repeat;
+		max-height: 850px;
 		min-height: 150px;
 		text-align: center;
-}
-.ipr-text1{
-	font-size: 1.5em;
-	color: black;
-	font-family: 'Droid Sans Mono', monospace;
-
-}
-.ipr-text-white{
-	color: white;
-}
-.Skype-button{
-	border: black 10px;
 }
 
 #grid-card .mdl-card__media{
