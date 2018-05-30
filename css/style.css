@@ -58,9 +58,10 @@ body{
 	color: black;
 	font-size: 1.5em
 }
-.ipr-icon-footer{
+.ipr-icon-footer a {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	text-decoration: none;
 }
 /* footer */
 .ipr-informacion{

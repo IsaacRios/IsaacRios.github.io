@@ -1,6 +1,9 @@
 body{
 	background-color: rgba(110, 164, 191, 1);
 }
+.final-subfooter{
+	background-color: rgba(110, 164, 191, 1);
+}
 .ipr-card{
 
 	width: 700px;
@@ -58,9 +61,12 @@ body{
 	color: black;
 	font-size: 1.5em
 }
-.ipr-icon-footer{
+.ipr-icon-footer a{
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	
 }
 /* footer 
 .ipr-informacion{
@@ -79,8 +85,8 @@ body{
 }
 
 .ipr-button-float{
-margin: 40px;
-text-align: center;
+	margin-top: 50px;
+	text-align: center;
 }
 .ipr-foot{
 	color: grey;
@@ -127,7 +133,7 @@ text-align: center;
 	padding-right: 35px;
 	padding-bottom: 20px;
 	background-color: white;
-	opacity: .5;
+	opacity: .7;
 }
 .ipr-slogan-ppal{
 	font-weight: 700;
@@ -142,11 +148,9 @@ text-align: center;
 	color: white;
 }
 .ipr-text-footer{
-	background-color: grey;
-	text-align: right;
-	opacity: .8;
-	padding: 10px;
-	padding-right: 30px;
+	text-align: Left;
+	padding-right: 20px;
+	font-family: 'Droid Sans Mono', monospace;
 }
 .ipr-title, .ipr-subtitle{
 	font-family: 'Josefin Slab', serif;
@@ -196,10 +200,18 @@ text-align: center;
 
 .ipr-Contact{
 		position: relative;
-		background: url('huella.jpg') center top no-repeat;
-		max-height: 850px;
+		background-color:rgba(26, 71, 90, 1);
+		max-height: 1024px;
 		min-height: 150px;
 		text-align: center;
+}
+.next-level{
+	
+}
+.next-level-icon{
+	font-size: 4em;
+	color: blue;
+	animation-delay: 4s
 }
 
 #grid-card .mdl-card__media{
