@@ -17,14 +17,22 @@
 	</head>
 	<body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		
 		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
-			<span>
-				<a href="treasure.html"><img src="logo.png" alt="OTAC Consulting"></a>
-			</span>
+				<span>
+					<a href="treasure.html"><img src="logo.png" alt="OTAC Consulting" title="Incio"></a>
+				</span>
 				<div class="mdl-layout-spacer"></div>
+				
 				<!--Navegacion principal-->
+
+				<nav class="mdl-navigation mdl-layout--large-screen-only">
+			        <a class="mdl-navigation__link" href="">Soluciones</a>
+			        <a class="mdl-navigation__link" href="">Compañia</a>
+			      </nav>
 				<nav class="nav-link-sub mdl-navigation">
+
 					<button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon nav-link-sub">
 					  <i class="material-icons" id="SolutionsID">keyboard_arrow_down</i>
 					</button>
@@ -33,14 +41,14 @@
 					</div>
 					<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
 					    for="demo-menu-lower-right">
-					  <li class="mdl-menu__item"><a href="#section-cards">Gestión de Tesorería</a></li>
+					  <li class="mdl-menu__item"><a href="#section-cards">Gestión Financiera</a></li>
 					  <li class="mdl-menu__item"><a href="#">Gestión Documental</a></li>
 					</ul>
 
 					<a href="#ipr-Contact" class="nav-link-sub mdl-navigation__link" >
 						<i class="material-icons" id="ContactIcon">contact_mail</i>
 						<div  class="mdl-tooltip mdl-tooltip--left" data-mdl-for="ContactIcon">
-						Contacto			
+							Contacto			
 						</div>
 					</a>
 				</nav>
@@ -58,7 +66,11 @@
 			</span>
 			<nav class="mdl-navigation">
 				<a href="ECommerce.html" class="mdl-navigation__link">
-					<i class="material-icons">attach_money</i>
+					<i class="material-icons">business_center</i>
+					Gestión de Tesoreria							
+				</a>
+				<a href="ECommerce.html" class="mdl-navigation__link">
+					<i class="material-icons">local_atm</i>
 					Pagos							
 				</a>
 				<a href="ECommerce.html" class="mdl-navigation__link">
@@ -76,17 +88,11 @@
 				<a href="ECommerce.html" class="mdl-navigation__link">
 					<i class="material-icons">domain</i>
 					Compañia						
-				</a>
-				<a href="#ipr-Contact" class="mdl-navigation__link">
-					<i class="material-icons">contact_mail</i>
-					Contacto						
-				</a>				
+				</a>			
 			</nav>
 		</div>
 
 		<!--Slide-->
-
-
 
 		<div class="mdl-layout__content">
 			<div class="ipr-slide mdl-typography--text-center">
@@ -104,6 +110,19 @@
 					<a href="#section-cards" class="mdl-button ipr-button-float animated bounce" style="animation-delay: 6.5s"><i class="material-icons animated bounceIn next-level-icon">expand_more</i></a>
 				</div>
 			</div>
+
+		<!-- WHITE BAR-->
+		<div class="white-bar">
+			<div class="iconsecurity">
+				<i class="material-icons iconsecurity">security</i>
+			</div>
+			<p class="pwhite-bar">
+				<strong>¿Está su empresa en riesgo de pagos fraudulentos?</strong> <br>
+				Realice nuestra evaluación de riesgos. <br>
+				Aprenda como nuestra robusta solución de control financiero puede ayudar a su compañía.
+			</p>
+			
+		</div>
 
 		<!--Section cards-->
 
@@ -124,12 +143,12 @@
 					</div>
 					<div class="mdl-card__supporting-text">
 						<span class="mdl-typography--font-light">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores nobis earum sed minus. Perferendis dolore, suscipit hic labore quidem, earum iusto, ut itaque ducimus iure libero, unde molestiae repudiandae?</span>
+						Ofrecemos a los directores financieros y los tesoreros la visibilidad y los informes que necesitan para optimizar su tesorería, controlar las cuentas bancarias, gestionar la liquidez y cumplir con las normativas.</span>
 					</div>
 					<div class="mdl-card__actions">
-						<a href="https://codepen.io/cyberChakal/" target="_blank">
+						<a href="https://codepen.io/cyberChakal/" target="_blank" title="leer más">
 							<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-								<i class="material-icons">vpn_key</i>
+								<i class="material-icons">business_center</i>
 							</button>
 						</a>						
 					</div>
@@ -143,13 +162,12 @@
 						</div>
 						<div class="mdl-card__supporting-text">
 							<span class="mdl-typography--font-light">
-							<i> (Enterprise Content Management) </i><br>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iure ex saepe. Incidunt tempora ipsum fuga, deserunt eius in sunt ut officiis? Vitae, ipsum voluptate reprehenderit impedit numquam recusandae quia?
+							Centralización, visibilidad y control de pagos a nivel mundial para cualquier tipo de pago, cualquier banco y cualquier zona geográfica.
 						</div>
 						<div class="mdl-card__actions">
-							<a href="http://www.otac.com.mx/" target="_blank">
+							<a href="http://www.otac.com.mx/" target="_blank" title="leer más">
 								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
-									<i class="material-icons">attach_money</i>
+									<i class="material-icons">local_atm</i>
 								</button>	
 							</a>
 						</div>
@@ -165,11 +183,11 @@
 					</div>
 					<div class="mdl-card__supporting-text">
 						<span class="mdl-typography--font-light">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquam provident laboriosam accusantium ducimus necessitatibus quaerat, enim aut. Molestias delectus omnis fuga itaque praesentium, a doloribus tempora nihil dolore labore. <br><br>
+						soluciones para gestionar la exposición al riesgo, de valor de mercado, contabilidad de cobertura para respaldar los programas corporativos y facilitar el cumplimiento de las normativas regulatorias.
 					 	</span>
 					</div>
 					<div class="mdl-card__actions">
-						<a href="ECommerce.html">
+						<a href="ECommerce.html" title="leer más">
 							<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
 								<i class="material-icons">poll</i>
 							</button>	
@@ -185,11 +203,11 @@
 						</div>
 						<div class="mdl-card__supporting-text">
 							<span class="mdl-typography--font-light">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magnam ipsum iste ipsa molestias laboriosam error itaque in minus! Esse cumque facilis voluptatum officia deleniti dolorem cum dignissimos libero voluptate.
+								Reduzca el riesgo en la cadena de suministro ofreciendo pagos anticipados para las facturas de los proveedores.
 						 	</span>
 						</div>
 						<div class="mdl-card__actions">
-							<a href="http:www.webmonster.mx" target="_blank">
+							<a href="http:www.webmonster.mx" target="_blank" title="leer más">
 								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
 									<i class="material-icons">how_to_vote</i>
 								</button>	
@@ -205,11 +223,11 @@
 						</div>
 						<div class="mdl-card__supporting-text">
 							<span class="mdl-typography--font-light">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga porro, fugiat repellendus culpa placeat accusamus obcaecati, perferendis ab. Iusto delectus repellat rerum veritatis ad maxime excepturi temporibus neque, eligendi quos.
+							Los módulos de Control y cumplimiento normativo fortalecen los controles financieros al mismo tiempo que ofrecen informes de auditoría sofisticados y capacidades líderes del sector para detectar y prevenir el fraude en tiempo real.
 							</span>
 						</div>
 						<div class="mdl-card__actions">
-							<a href="FacturaElectronica.html" target="_blank" id="tt1">
+							<a href="FacturaElectronica.html" target="_blank" title="leer más">
 								<button class="ipr-icon2 mdl-button mdl-js-button mdl-button--fab">
 									<i class="material-icons">beenhere</i>
 								</button>	

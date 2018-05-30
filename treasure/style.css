@@ -4,6 +4,11 @@ body{
 .final-subfooter{
 	background-color: rgba(110, 164, 191, 1);
 }
+.iconsecurity{
+	color: rgba(204, 164, 59, 1);
+	font-size: 2em;
+	margin-left: 15%;
+}
 .ipr-card{
 
 	width: 700px;
@@ -119,7 +124,7 @@ body{
 .ipr-slide{
 	background: url('santafe3.jpg') center no-repeat;
 	background-size: cover;
-	height: 600px;
+	height: 750px;
 	width: 100%;
 }
 .ipr-slogan{
@@ -213,7 +218,16 @@ body{
 	color: blue;
 	animation-delay: 4s
 }
-
+.white-bar{
+	background-color: white;
+	color: rgba(26, 71, 90, 1);
+	padding: 30px;
+	padding-left: 30%;
+}
+.pwhite-bar{
+	font-size: 1.5em;
+	text-align: left;
+}
 #grid-card .mdl-card__media{
 	overflow: hidden;
 	/*background: transparent;*/
