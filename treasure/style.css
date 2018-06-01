@@ -210,6 +210,9 @@ body{
 		min-height: 150px;
 		text-align: center;
 }
+.gridsize{
+	min-height: 90px;
+}
 .next-level{
 	
 }
