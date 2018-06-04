@@ -1,6 +1,33 @@
 body{
 	background-color: rgba(110, 164, 191, 1);
 }
+.background-compañia{
+	background-image: url("huella.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+  	min-height: 300px;
+  	min-width: 200px;
+  	padding-left: 30%;
+  	padding-right: 5%;
+  	padding-top: 5%;
+  	padding-bottom: 5%;
+}
+.container-compañia{
+	border: #blue solid 5px;
+	padding: 5%;
+	font-family: 'Droid Sans Mono', monospace;
+	background-color: black;
+	border-radius: 15px;
+	color: #6ea4bf;
+}
+.container-industrias{
+	background-color: white;
+
+	font-size: 1.5em;
+	font-family: 'Droid Sans Mono', monospace;
+}
 .final-subfooter{
 	background-color: rgba(110, 164, 191, 1);
 }
@@ -8,6 +35,14 @@ body{
 	color: rgba(204, 164, 59, 1);
 	font-size: 2em;
 	margin-left: 15%;
+}
+.icon-big-white{
+	font-size: 2em;
+	color: white;
+}
+.icon-industrias{
+	font-size: 4em;
+	margin-bottom: 10px;
 }
 .img-pre-footer{
    background-image: url("santafe2.jpg");
@@ -17,7 +52,15 @@ body{
 	background-size: cover;
   	min-height: 300px;
   	min-width: 200px;
-  	background-color:white ;
+  	padding-left: 15%;
+  	padding-right: 15%;
+
+}
+.industrias-icon-text{
+	font-size: 20px;
+}
+.industrias-colum{
+	text-align: center;
 }
 .ipr-card{
 
@@ -162,6 +205,10 @@ body{
 .ipr-text-white{
 	color: white;
 }
+.ipr-text-white-medium{
+	color: white;
+	font-size: 2em;
+}
 .ipr-text-footer{
 	text-align: Left;
 	padding-right: 20px;
@@ -241,9 +288,8 @@ body{
 	font-size: 1.5em;
 	text-align: left;
 }
-.text-content p{
+.text-content {
 	color: white;
-	font-size: 1.5em;
 	padding-top: 75px;
 	text-align: center;
 }
@@ -252,49 +298,13 @@ body{
 	font-size: 3em;
 	text-align: center;
 }
-/* Video container */
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
+#Industrias{
+	background-color: white;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 25%;
+	padding-bottom: 5%;
 }
-.no-video .video-container video,
-.touch .video-container video {
-    display: none;
-}
-.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
-}
-.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-}
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-}
-.video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-}
-.video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-}
-.video-container video.fillWidth {
-    width: 100%;
-}
-/* fin video container */
 
 #grid-card .mdl-card__media{
 	overflow: hidden;
