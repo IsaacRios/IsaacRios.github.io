@@ -9,6 +9,18 @@ body{
 	font-size: 2em;
 	margin-left: 15%;
 }
+.img-pre-footer{
+	
+   background-image: url("santafe2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+  	min-height: 300px;
+  	min-width: 450px;
+  	background-color:white ;
+
+}
 .ipr-card{
 
 	width: 700px;
@@ -231,7 +243,12 @@ body{
 	font-size: 1.5em;
 	text-align: left;
 }
-
+.text-title-contact{
+	color: white;
+	font-size: 3em;
+padding-bottom: 30px;
+	text-align: center;
+}
 /* Video container */
 .homepage-hero-module {
     border-right: none;
