@@ -42,6 +42,31 @@ body{
 	font-size: 1.5em;
 	font-family: 'Droid Sans Mono', monospace;
 }
+.industrias{
+	background-color: white;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 25%;
+	padding-bottom: 5%;
+}
+.clientes{
+	background-color: white;
+	min-height: 300px;
+	
+}
+.clientes-text{
+	font-family: 'Droid Sans Mono', monospace;
+	text-align: center;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.client-container{
+	border: #6ea4bf 2px solid;
+	width: 190px;
+	height: 100px;
+	border-radius: 5px;
+	
+}
 .final-subfooter{
 	background-color: rgba(110, 164, 191, 1);
 }
@@ -313,13 +338,8 @@ body{
 	text-align: center;
 }
 #Industrias{
-	background-color: white;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 25%;
-	padding-bottom: 5%;
-}
 
+}
 #grid-card .mdl-card__media{
 	overflow: hidden;
 	/*background: transparent;*/
