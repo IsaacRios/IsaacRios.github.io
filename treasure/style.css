@@ -7,13 +7,27 @@ body{
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
-  	min-height: 300px;
+
+  	max-height: 2200px;
   	min-width: 200px;
   	padding-left: 30%;
   	padding-right: 5%;
   	padding-top: 5%;
   	padding-bottom: 5%;
 }
+
+@media only screen and (max-width: 450px) {
+	
+	.background-compañia{
+	background-color: black;
+	background-image: url("huella2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	
+	}
+    
+}
+
 .container-compañia{
 	border: #blue solid 5px;
 	padding: 5%;
